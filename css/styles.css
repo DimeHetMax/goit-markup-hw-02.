@@ -2,8 +2,6 @@
     display: none;
 }
 
-
-
 .logo {
     text-decoration: none;
     font-size: 26px;
@@ -19,6 +17,7 @@
 .nav-link .link:hover {
     color: #2196F3;
 }
+
 .btn .link {
     display: inline-block; /* Строчно-блочный элемент */
     background: #2196F3; /* Серый цвет фона */
