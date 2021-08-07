@@ -1,0 +1,46 @@
+.hidden-heading {
+    display: none;
+}
+
+
+
+.logo {
+    text-decoration: none;
+    font-size: 26px;
+    color: #000000
+}
+.logo > span {
+    color: #2196F3;
+}
+.link {
+    text-decoration: none;
+}
+
+.nav-link .link:hover {
+    color: #2196F3;
+}
+.btn .link {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #2196F3; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 4px; /* Скругляем уголки */  
+    list-style-type: none;
+    
+}
+
+.button {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #2196F3; /* цвет фона */
+    color: #fff; /* Белый цвет текста */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 4px; /* Скругляем уголки */  
+}
+.btn {
+     list-style-type: none;
+}
+
