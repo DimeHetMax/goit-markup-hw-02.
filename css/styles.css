@@ -1,45 +1,261 @@
-.hidden-heading {
-    display: none;
-}
-
 .logo {
-    text-decoration: none;
-    font-size: 26px;
-    color: #000000
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 26px;
+  color: #000000;
+  line-height: 1.2;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
 }
 .logo > span {
-    color: #2196F3;
+  color: #2196f3;
 }
 .link {
-    text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+  cursor: pointer;
+  color: #212121;
+}
+
+.section-title {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  background-color: #2f303a;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-lead {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.section-lead .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.section-content {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.section-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.section-team .desc {
+  font-family: Roboto;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.section-team h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-team li {
+  list-style-type: none;
+  display: inline;
+}
+
+.button-title {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  display: inline-block; /* Строчно-блочный элемент */
+  background: #2196f3; /* цвет фона */
+  color: #fff; /* Белый цвет текста */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 1rem 1.5rem; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 4px; /* Скругляем уголки */
 }
 
 .nav-link .link:hover {
-    color: #2196F3;
+  color: #2196f3;
+}
+
+.nav-link .link:focus {
+  color: #2196f3;
+}
+
+.nav-link {
+  list-style-type: none;
+}
+
+.link-main {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+  cursor: pointer;
+  color: #2196f3;
+}
+
+.contacts {
+  list-style-type: none;
+}
+
+.contacts .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.contacts .link:hover {
+  color: #2196f3;
+}
+.contacts .link:focus {
+  color: #2196f3;
 }
 
 .btn .link {
-    display: inline-block; /* Строчно-блочный элемент */
-    background: #2196F3; /* Серый цвет фона */
-    color: #fff; /* Белый цвет текста */
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    padding: 1rem 1.5rem; /* Поля вокруг текста */
-    text-decoration: none; /* Убираем подчёркивание */
-    border-radius: 4px; /* Скругляем уголки */  
-    list-style-type: none;
-    
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
-.button {
-    display: inline-block; /* Строчно-блочный элемент */
-    background: #2196F3; /* цвет фона */
-    color: #fff; /* Белый цвет текста */
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    padding: 1rem 1.5rem; /* Поля вокруг текста */
-    text-decoration: none; /* Убираем подчёркивание */
-    border-radius: 4px; /* Скругляем уголки */  
+.btn .link:hover {
+  display: inline-block; /* Строчно-блочный элемент */
+  background: #2196f3; /* Серый цвет фона */
+  color: #fff; /* Белый цвет текста */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 1rem 1.5rem; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 4px; /* Скругляем уголки */
+  list-style-type: none;
 }
+
+.btn .link:focus {
+  display: inline-block; /* Строчно-блочный элемент */
+  background: #2196f3; /* Серый цвет фона */
+  color: #fff; /* Белый цвет текста */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 1rem 1.5rem; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 4px; /* Скругляем уголки */
+  list-style-type: none;
+}
+
 .btn {
-     list-style-type: none;
+  list-style-type: none;
 }
 
+.hidden-heading {
+  display: none;
+}
+
+.portfolio-cards {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-cards .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.portfolio-cards ul {
+  list-style-type: none;
+}
+
+.footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+}
+
+.footer .address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
