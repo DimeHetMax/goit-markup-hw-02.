@@ -46,6 +46,9 @@
 
   color: #212121;
 }
+.section-lead ul {
+  list-style-type: none;
+}
 
 .section-lead h2 {
   display: none;
@@ -257,6 +260,10 @@
   color: #ffffff;
 }
 
+.address ul {
+  list-style-type: none;
+}
+
 .footer .link {
   font-family: Roboto;
   font-style: normal;
@@ -274,4 +281,8 @@
 
 .footer .link:focus {
   color: #2196f3;
+}
+
+.footer ul {
+  list-style-type: none;
 }
